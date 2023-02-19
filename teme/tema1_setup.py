@@ -37,6 +37,6 @@ prop = "Coral is eiTHEr THE stupidest animal or THE smartest rock"
 print(prop.count('THE'))
 
 # 10
-prop = "Coral is either the stupidest animal or the smartest rock"
+prop = "Coral is either the stupidest animal ot the smartest rock"
 prop.isnumeric()
-assert prop.isnumeric()
+print(prop.isnumeric())

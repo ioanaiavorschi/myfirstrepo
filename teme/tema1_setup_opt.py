@@ -1,12 +1,12 @@
 # 1 citeste de a tastatura un string de dimensiune impara ;
 # afiseaza caracterul din mijloc
-#scrie_ceva = input("introduceti un cuvant")
-#print(scrie_ceva)
+scrie_ceva = input("introduceti un cuvant")
+print(scrie_ceva)
 
 #assert scrie_ceva == reversed(scrie_ceva)
 # 2 folosind assert, verifica daca stringul este palindrom
-#scrie_ceva = input("scrie un palindrom")
-#assert scrie_ceva == scrie_ceva[::-1]
+scrie_ceva = input("scrie un palindrom")
+assert scrie_ceva == scrie_ceva[::-1]
 
 # 3
 doua_cuvinte = input("scrie doua cuvinte")
